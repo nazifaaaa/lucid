@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+/* header design */
+
+header{
+    width: 100%;
+    background: url("img/banner.png") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar .navbar-brand img{
+    width: 140px;
+}
+
+.navbar .nav-item .nav-link{
+    padding: 8px;
+    margin-right: 10px;
+    color: white;
+}
+
+
+/* banner design */
+
+.cus-height{
+    height: 72vh;
+}
+
+.banner-section .content h5{
+    font-weight: 700;
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.banner-section .content h1{
+    width: 95%;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner-section .content p{
+    width: 88%;
+    color: #fff;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 58px;
+}
+
+.banner-section .content .b-btns a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 0px 15px 0px 0px;
+}
+
+.banner-section .content .b-btns .btn-1{
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.4s;
+}
+
+.banner-section .content .b-btns .btn-1:hover{
+    background: transparent;
+    border-color: white;
+    transition: 0.4s;
+}
+
+.banner-section .content .b-btns .btn-2{
+    background: transparent;
+    border-color: white;
+    transition: 0.4s;
+}
+
+.banner-section .content .b-btns .btn-2:hover{
+    background: #008ed6;
+    border-color: #008ed6;
+    transition: 0.4s;
+}
+
+/* feature design */
+
+.feature-section{
+    width: 100%;
+    padding: 50px 0px 38px 0px;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.feature-section .col-12 h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.feature-section .col-12 h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.feature-section .underline{
+    margin: 30px auto;
+    background: #578bd1;
+    height: 3px;
+    width: 5%;
+    transition: 0.5s;
+}
+
+.feature-section .underline:hover{
+    margin: 30px auto;
+    background: #578bd1;
+    width: 13%;
+    transition: 0.5s;
+}
+
+.feature-section .inner i{
+    border: 2px solid #d6d6d6;
+    border-radius: 50%;
+    color: #008ed6;
+    padding: 26px;
+    margin-bottom: 20px;
+    height: 88px;
+    width: 88px;
+    font-size: 30px;
+}
+
+.feature-section .inner h5{
+    color: #1a1a1a;
+    font-size: 22px;
+}
+
+.feature-section .inner p{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 94%;
+}
+
+/* something design */
+
+.something-section{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.something-section .s-inner h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: 60px;
+}
+
+.something-section .s-inner h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.something-section .s-inner .underline{
+    margin: 29px 0px 0px 0px;
+    background: #578bd1;
+    height: 3px;
+    width: 10%;
+    transition: 0.5s;
+}
+
+.something-section .s-inner .underline:hover{
+    margin: 29px 0px 0px 0px;
+    background: #578bd1;
+    width: 25%;
+    transition: 0.5s;
+}
+
+.something-section .s-inner p{  
+    width: 87%;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+} 
+
+.something-section ul{
+    margin: 25px 0px 0px;
+    padding: 0;
+}
+
+.something-section ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.something-section li i{
+    color: #008ed6;
+    margin-right: 7px;
+    font-size: 18px;
+}
+
+/* whatever design */
+
+.whatever-section{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.whatever-section img{
+    width: 100%;
+}
+
+.whatever-section .w-inner h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 7px;
+    margin-top: 60px;
+}
+
+.whatever-section .w-inner h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.whatever-section .w-inner .liner{
+    margin: 30px 0px 0px 0px;
+    background: #578bd1;
+    height: 3px;
+    width: 10%;
+    transition: 0.5s;
+}
+
+.whatever-section .w-inner .liner:hover{
+    margin: 30px 0px 0px 0px;
+    background: #578bd1;
+    width: 25%;
+    transition: 0.5s;
+}
+
+.whatever-section .w-inner p{
+    width: 87%;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
